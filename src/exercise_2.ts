@@ -1,4 +1,5 @@
-// Arquivo: exercise_2.ts
-// Criado automaticamente pelo script
+function personMsg(name: string): string {
+  return `hello, ${name}!`;
+}
 
-console.log("Executando exercise_2.ts");
+console.log(personMsg("Lopes"));
